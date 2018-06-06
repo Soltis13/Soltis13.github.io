@@ -1,0 +1,18 @@
+.image{
+    margin: 2em .25em;
+    border: 2px solid white;
+    background: white;
+    color: darkmagenta;
+    
+}
+.container{
+    text-align: center;
+    margin: 1em auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(223, 221, 221);
+}
+
+body{
+    background-image: url("../images/winnebago3.jpg");
+
+}

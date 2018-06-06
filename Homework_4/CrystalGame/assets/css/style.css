@@ -1,0 +1,27 @@
+.crystal-image {
+    width: 100px;
+    height: auto;
+}
+
+#numberToGuess{
+    font-size: 45px;
+}
+
+body{
+    background-image: url("../images/pivka.jpg");
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgba(100,100,100,.75);
+    color: lightgoldenrodyellow;
+}
+
+/* .row{
+    border: 2px solid red;
+
+} */
+.col-md-6{
+    text-align: center;
+    vertical-align: text-top;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit-4-Game Crystals</title>
+
+    <!-- CSS Reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Bootstrap CSS 4.1.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    
+</head>
+<body>
+    <Div class="container jumbotron text-justify "><span class = "navbar-brand mb-0 h1">Crystals Collector!</span><br>You will be given a random number at the start of the game.<br>
+        There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.<br>
+        You win the game by matching your total score to the random number provided.  You lose the game if your total score goes above the random number.<br>
+        The value of each crystal is hidden from you until you click on it.<br>
+        Each time when the game starts, the game will change the values of each crystal.</Div>
+    
+    <div class="container jumbotron">
+        <div class="row">
+            <div class = "col-md-4">
+                <!--random generated number goes here-->
+                <div class="row">
+                    <div class="col-md-6"><h3>The random number is: </h3></div>
+                    <div class="col-md-6"> <span id="numberToGuess"><h3>0</h3></span></div>
+                </div>
+            </div>
+
+            <div class = "col-md-4">
+                <!-- Score goes here--> 
+                <div class="row">
+                    <div class="col-md-6"><h3>Your total score is: </h3></div>
+                    <div class="col-md-6"> <span id="totalScore"><h3>0</h3></span></div>
+                </div>
+            </div>
+
+            <div class = "col-md-4">
+
+                <!--wins and loses go here-->  
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12"> 
+                        <div class="row">
+                            <div class="col-md-6"><h3>Wins: </h3></div>
+                            <div class="col-md-6"><span id="wins"><h3>0</h3></span></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12"> 
+                        <div class="row">
+                            <div class="col-md-6"><h3>Loses: </h3></div>
+                            <div class="col-md-6"><span id="loses"><h3>0</h3></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <Div class="container jumbotron" > <!-- images of crystals go here-->
+        <div class="row">
+            <div class = "col-md-3 image1 crystal" value="1"><span id="crystalImg1"><img src="assets/images/crystal1.png" class=" img-responsive img-circle center-block " style="width: 100px; height: auto"></span></div>
+            <div class = "col-md-3 image2 crystal" value="1"><span id="crystalImg2"><img src="assets/images/crystal2.png" class=" img-responsive img-circle center-block " style="width: 100px; height: auto"></span></div>
+            <div class = "col-md-3 image3 crystal" value="1"><span id="crystalImg3"><img src="assets/images/crystal3.png" class=" img-responsive img-circle center-block " style="width: 100px; height: auto"></span></div>
+            <div class = "col-md-3 image4 crystal" value="1"><span id="crystalImg4"><img src="assets/images/crystal4.png" class=" img-responsive img-circle center-block " style="width: 100px; height: auto"></span></div>
+        </div>  
+    </Div>
+    
+</body>
+
+<!--Bootstrap JS for 4.0-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!--Custom Javascript-->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
