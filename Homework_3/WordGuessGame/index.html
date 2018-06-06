@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WordGuessGame</title>
+    <!-- CSS Reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Bootstrap CSS 4.1.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
+</head>
+ 
+
+<body id="background">
+
+    <script>history.scrollRestoration = "manual"</script>
+
+    <!--Main Page - Surounding images and title screen -->
+
+    <!--Side Bars with links to rhyme images-->
+    <!-- <div class="sidenav sidenavright bg-dark" style=" height:auto; overflow: hidden;">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+    </div>
+    <div class="sidenav sidenavleft bg-dark" style=" height:auto; overflow: hidden;">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+            <a href="https://placeholder.com"><img src="http://via.placeholder.com/100x100">
+    </div> -->
+
+<!--Main Game Content Section-->
+    <div class="container maincontent">
+
+        <!--Game Title Jumbotron-->
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">H's Nursery Rhymes</h1>
+                <p class="lead">This is a simple hero unit, Nursery Rhymes coming soon.</p>
+                <hr class="my-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-12">Press - ENTER - to start.</div>
+            </div>
+        </div>
+
+        <!--Game Play Area-->
+        <div class="container" id="game">
+            <div class="row"><div class="col-md-12"><H5>HELP - Press 1</H5></div></div>
+
+            <div class="row"><!--Upper sectionLeft Side - Image of puzzle goes here-->
+                <div class="col-sm-6 divider"><a href="https://placeholder.com"><img src="http://via.placeholder.com/350x250"></a></div>
+                
+                <div class="col-sm-6 divider"> <!--Upper right box-->
+                    <div class="row"><!--Wins and Losses Col-->
+                        <div class="col-md-6"><!--Wins Col-->
+                            <div class = "row"><div class="col-md-12"><H2>Wins</H2></div></div>
+                            <div class = "row"><div class="col-md-12"><span id="winsCount">0</span>/3</div></div>
+                        </div> 
+                        <div class="col-md-6"><!--Lives Remaining Col-->
+                            <div class = "row"><div class="col-md-12"><H2>Lives</H2></div></div>
+                            <div class = "row"><div class="col-md-12"><span id="livesCount">3</span></div></div>
+                        </div> 
+                    </div>
+                    <div class="row"><!--Col2 Row 2-->
+
+                        <div class="col-md-12"><!--Guesses Col-->
+                            <div class = "row"><div class="col-md-12"><H2>Guesses</H2></div></div>
+                            <div class = "row"><div class="col-md-12"><span id="guessesRemaining"></span></div></div>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+            <div class="row divider"><!--Lower section-->
+                <div class="col-md-12">
+
+                    <div class="row"><!--Current Word-->
+                        <div class = "col-md-12">
+                            <div class = "row"><div class = "col-md-12"><H2>Current Word</H2></div></div>
+                            <div class = "row"><div class = "col-md-12"><span id="currentWord">_ _ _ _ _ _</span></div></div>
+                        </div>
+                    </div>
+
+                    <div class="row"><!--Letters Already Guessed-->
+                        <div class = "col-md-12">
+                            <div class = "row"><div class = "col-md-12"><H2>Letters Already Guessed</H2></div></div>
+                            <div class = "row"><div class = "col-md-12"><span id="incorrectGuesses">X X X X X X</span></div></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>   
+
+
+</body>
+
+<!--Bootstrap JS for 4.0-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!--Custom Javascript-->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>

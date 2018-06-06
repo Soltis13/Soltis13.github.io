@@ -1,0 +1,11 @@
+body{
+    min-height: 1825px;
+    height:auto; 
+}
+
+#game{
+    position: absolute;
+    top: 1200px;
+    background: rgba(255, 255, 255, 0.568); 
+
+}
