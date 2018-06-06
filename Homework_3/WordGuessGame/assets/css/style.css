@@ -9,3 +9,11 @@ body{
     background: rgba(255, 255, 255, 0.568); 
 
 }
+#background{
+    background-image: url("../images/sky1.jpg");
+    background-image: no-repeat;
+}
+
+.jumbotron{
+    margin: 13em 0 2em 0 ;
+}

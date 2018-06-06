@@ -89,12 +89,13 @@ img{
 }
 
 .portfolio h4{
-    margin: 1em 3em;
-    padding: auto ;
+    margin: 1em 5em;
+    padding: 0 ;
 }
 
 .portfolio .entry{
     margin: 1em 0;
+
 }
 
 /* Updates for responsive design*/
