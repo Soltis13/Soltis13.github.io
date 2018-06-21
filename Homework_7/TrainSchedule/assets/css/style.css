@@ -1,0 +1,60 @@
+/* */
+body{
+    /* background-color: lightgrey;*/
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../images/train1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+/* Heading*/
+.heading{
+    text-align: center;
+    background-color: lightcyan;
+    opacity: 0.85;
+}
+
+thead {
+    border-bottom: 1px solid #000000;
+    background-color: #d3d3d3
+  }
+
+
+/* Table */
+
+th{
+    padding: 0 7em 0 0;
+}
+
+tr {
+    border-top: 1px solid #000000;
+  }
+
+.title{
+    background-color: lightblue;
+ 
+    padding: .75em .5em .5em .5em;
+    color: white;
+}
+
+.jumbotron{
+    background-color: white;
+    text-align: center;
+    opacity: 0.85;
+    
+}
+
+#mainsection{
+    border: 3px solid lightskyblue;
+    
+}
+/* Form */
+
+input{
+  
+    margin: 0 0 1em 0;
+}
+#addtrain{
+    background-image: url("../images/train1.jpg")
+}
