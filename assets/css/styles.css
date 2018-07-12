@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', cursive; }
 
-p{ line-height: 1.6; font-size: 1em; font-weight: 400; color: #777; }
+p{ line-height: 1.6; font-size: 1em; font-weight: 400; color: rgb(29, 28, 28); }
 
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
@@ -72,7 +72,7 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; background-color: lightgrey }
+.section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; background-color: rgb(231, 231, 231) }
 
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
@@ -211,7 +211,7 @@ b.max-bold{ font-weight: 700; }
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ position: relative; background-color: lightgrey}
+.portfolio-section{ position: relative; background-color: rgb(231, 231, 231)}
 
 .portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
 
