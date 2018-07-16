@@ -28,15 +28,24 @@
 //This will show your last 20 tweets and when they were created at in your terminal/bash window.
 function myTweets(a){
     //TODO add user name
-    var params = {screen_name: '', limit: 1 };
+    var params = {screen_name: '', limit=20};
     clientTwitter.get('statuses/user_timeline', params, function(error, tweets, response) {
         if(error){
             console.log(error)
         }
         if (!error) {
             //console.log(tweets);
-            console.log(JSON.stringify((response).body))
-            //TODO check object response and formate output
+            //console.log(((tweets)))
+        //This will show your last 20 tweets and when they were created at in your terminal/bash window.
+
+            for(var i=0; i<20; i++){
+                //Tweets
+                console.log(i+" Tweet -----------------------------------------------------")
+                console.log(tweets[i].text)
+                
+                //Time of Creation
+                console.log("Tweet was created on: "+tweets[i].created_at)
+            }
         }
     });
 }
@@ -192,10 +201,12 @@ function doWhat(){
                 console.log("found action: "+dataArr[i]+" Next value is: "+dataArr[i+1])
            
                 //if yes, //is next position equal to command?
-                if(dataArr[i+1]!=="spotify-this-song" && dataArr[i+1] !== "my-tweets" && dataArr[i+1] !== "movie-this"){
-                  //if no, make it equal to value and run command request
-                  value = dataArr[i+1]
-                  console.log("set value to next position value: "+ value)
+                if(dataArr[i+1]==="spotify-this-song" || dataArr[i+1] === "my-tweets" || dataArr[i+1] === "movie-this"){
+                    value = undefined;
+                }else{
+                    //if no, make it equal to value and run command request
+                    value = dataArr[i+1]
+                    console.log("set value to next position value: "+ value)
                 }
              
             }else{action="noAction"}
