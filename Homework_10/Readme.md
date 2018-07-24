@@ -1,10 +1,10 @@
 ## Node HangMan  
 #### This app runs a word guess game in node.js based on the idea of Hangman.   
 #### There are currently 4 categories of words to choose from;
-    Cars,   
-    Food,  
-    Coding,   
-    Houshold.  
+    Cars   
+    Food  
+    Coding   
+    Houshold  
 #### Try your luck but don't worry, KVN will be there every step of the way to help out.  
 
 ## How to Run  
