@@ -1,6 +1,7 @@
 
 // LOAD DATA
 var friendsData = require("../data/friends");
+
 console.log(friendsData)
 
 // ROUTING

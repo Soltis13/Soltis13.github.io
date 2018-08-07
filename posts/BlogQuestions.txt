@@ -1,0 +1,25 @@
+What is the difference between a framework, toolkit and library?
+    Inversion of Control - When you call a library, you are in control.  But with a framework
+    , the control is inverted, the framework calls you.
+    In the framework, the control flow is based on predefened spots to fill out with code.  
+
+    A kit is a set of predefened libraries that have been setup and tested to work together.  
+    A sort of larger meta library.
+
+Web Application frameworks? WHat is the direction of framework development and adoption.
+    Best readme / instructions 
+    what are devs looking for in frameworks.
+
+        github contributions
+        downloads on npm
+        tutorials & Blogs
+
+    heavy weight and light weight frameworks
+        lightweight has more blank spaces to fill in more, more needed dev input.
+        
+
+    Express
+    sailsjs
+    Rails
+
+    
