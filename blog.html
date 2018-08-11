@@ -4,75 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Soltis Web Development Blog</title>
-    <!-- CSS Reset-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>My Blog Main Page</title>
+
+    <!--Bootstrap 4.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Custom style-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!--Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-        
+    <link href="assets/css/blogcss.css" rel="stylesheet">
 </head>
 <body>
+    <div class = "container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
 
-
-    
-<!--Nav Bar-->
-    <div class = "side">
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-md-12">
-                    
+                <div class="col-12 text-center">
+                <a class="blog-header-logo text-dark" href="#"><h2>My Personal Blog</h2></a>
                 </div>
-            </div>
-            <div class = "row">
-                    <div class = "col-md-12">
-      
-                </div>
-            </div>
-    
-            <div class = "row">
-                <div class = "col-md-12">
-                    <a href="#about">Blog</a>
-                </div>
-            </div>
-    
-            <div class = "row">
-                <div class = "col-md-12">
-                    <a href="#about">Contact</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="main">
-        <div class = "container post">
-            <div class = "row">
-                <div class = "col-md-3">Tag</div>
-                <div class = "col-md-9">
-                    <P><strong></strong>Title</P>
-                    <h3>Content . . .</h3>
-                </div>
-            </div>
-        </div>
-        <div class = "container post">
-            <div class = "row">
-                <div class = "col-md-3"></div>
-                <div class = "col-md-9">
-                    <P><strong></strong></P>
-                </div>
+  
 
             </div>
-        </div>
-        
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                  <a class="p-2 text-muted" href="#">About Me</a>
+                  <a class="p-2 text-muted" href="#">Blogging</a>
+                  <a class="p-2 text-muted" href="#">Technology</a>
+                  <a class="p-2 text-muted" href="#">Design</a>
+                  <a class="p-2 text-muted" href="#">Health</a>
+                  <a class="p-2 text-muted" href="#">Business</a>
+         
+                </nav>
+              </div>
+
+              <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+                    <div class="col-md-10 px-0">
+                        <h1 class="display-4 font-italic">A Journy of a Thousand Miles . . .
+                          </h1>
+                        <p class="lead my-1">Just my thoughts, writings nad musings.  Sometimes they involve coding somethings thye involve something else.  I like to think about many different things.
+                          </p>
+                      <h1 class="lead my-4 font-italic">"Tell me and I forget. Teach me and I remember. Involve me and I learn.""
+                          </h1>
+                      <p class="lead my-3">--Benjamin Franklin
+                      </p>
+                      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold"></a></p>
+                    </div>
+                  </div>
+
+
 
     </div>
+
+    <main class="container">
+            <div class="row mb-2">
+                    <div class="col-md-6">
+                      <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                          <strong class="d-inline-block mb-2 text-primary">World</strong>
+                          <h3 class="mb-0">
+                            <a class="text-dark" href="#">Featured post</a>
+                          </h3>
+                          <div class="mb-1 text-muted">Nov 12</div>
+                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Continue reading</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16520be513b%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16520be513b%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22130.7%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                          <strong class="d-inline-block mb-2 text-success">Design</strong>
+                          <h3 class="mb-0">
+                            <a class="text-dark" href="#">Post title</a>
+                          </h3>
+                          <div class="mb-1 text-muted">Nov 11</div>
+                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Continue reading</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16520be5141%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16520be5141%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22130.7%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                      </div>
+                    </div>
+                  </div>
+
+    </main>
+
+    <footer class="blog-footer">
+            <p> <a href="">  </a>  <a href=""></a></p>
+            <p>
+              <a href="#">Back to top</a>
+            </p>
+    </footer>
+
+    
     
 </body>
+<!--Bootstrap 4.1 javascript-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="../../assets/js/vendor/holder.min.js"></script>
+<script>
+  Holder.addTheme('thumb', {
+    bg: '#55595c',
+    fg: '#eceeef',
+    text: 'Thumbnail'
+  });
+</script>
 
 </html>
