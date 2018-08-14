@@ -1,0 +1,22 @@
+/*Main Body*/
+
+body {
+    font-family: 'monospace', cursive;
+    font-size: 2rem;
+    
+  }
+
+  /*Title content*/
+.jumbotron {
+  background-color: white;
+  color: rgb(66, 172, 66);
+  background-image: url(../img/burger.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 5rem;
+}
+
+/*main area*/
+.eat-burger:hover, .add-burger:hover {
+  opacity: 0.5;
+}
