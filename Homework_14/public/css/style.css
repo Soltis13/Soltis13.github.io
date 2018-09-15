@@ -1,0 +1,50 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; */
+
+/* font-family: 'Londrina Solid', cursive; */
+
+
+body { 
+  font-family: 'Roboto', sans-serif;
+  background-color: lightcyan;
+}
+h1 {
+  font-family: 'Londrina Solid', cursive;
+
+}
+.add-article, .delete-article, .show-note, .delete-note {
+  cursor: pointer;
+}
+.container{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  padding: 1em;
+  
+  margin: 1em auto;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+
+  background-color:whitesmoke;
+ 
+}
+#savebutton{
+  position: absolute;
+  float:right;
+  bottom:0;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+ 
+}
+input {
+  height: 48px;
+  font-size: 26px;
+}
